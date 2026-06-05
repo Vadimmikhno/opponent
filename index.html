@@ -1956,7 +1956,7 @@
             let ticking = false;
             const THRESHOLD = 80;
             window.addEventListener('scroll', () => {
-                if (window.innerWidth <= 768) return; // mobile: nav hidden via CSS
+
                 const y = window.scrollY;
                 if (Math.abs(y - lastY) < 6) return;
                 if (!ticking) {
